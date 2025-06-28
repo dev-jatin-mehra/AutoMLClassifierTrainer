@@ -5,6 +5,9 @@ from core.data_handler import handle_file_upload, load_data, validate_data
 from core.session_manager import initialize_session
 from components.sidebar import render_saved_models_sidebar, render_target_sidebar
 
+os.makedirs("uploads", exist_ok=True)
+os.makedirs("models", exist_ok=True)
+
 # Setup
 st.set_page_config(page_title="AutoML CSV Classifier", layout="wide")
 st.title("AutoML CSV Classifier Trainer")
