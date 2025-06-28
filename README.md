@@ -1,10 +1,10 @@
-# 🤖 AutoML CSV Classifier
+# AutoML CSV Classifier
 
 A simple Streamlit web application that allows users to upload a cleaned CSV file, select a target column, and automatically train classification models using PyCaret. Trained models and their metadata are stored and listed using MongoDB.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload and preview CSV datasets
 - Automatic column cleaning and null check
@@ -16,7 +16,7 @@ A simple Streamlit web application that allows users to upload a cleaned CSV fil
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/)
 - **Backend (ML):** [PyCaret](https://pycaret.org/)
